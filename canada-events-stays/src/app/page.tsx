@@ -13,7 +13,7 @@ export default function Home() {
       <p style={{fontSize:12,marginTop:12}}>Launching city by city across Canada.</p>
     </div></section>
     <section className="section"><div className="container">
-      <div className="section-head"><div><div className="eyebrow">What's happening</div><h2>Events worth travelling for</h2><p className="muted">Explore experiences in Canada's favourite cities.</p></div><Link className="btn secondary" href="/events">All events</Link></div>
+      <div className="section-head"><div><div className="eyebrow">What&apos;s happening</div><h2>Events worth travelling for</h2><p className="muted">Explore experiences in Canada&apos;s favourite cities.</p></div><Link className="btn secondary" href="/events">All events</Link></div>
       <div className="grid">{events.map(e=><EventCard key={e.id} event={e}/>)}</div>
     </div></section>
     <section className="section" style={{background:"#f1f6f2"}}><div className="container">
